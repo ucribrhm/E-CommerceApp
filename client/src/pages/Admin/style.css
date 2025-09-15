@@ -1,0 +1,10 @@
+.adminmenu{
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 0;
+    
+}
+.adminmenu li{
+padding: 0 10px;
+list-style: none;
+}

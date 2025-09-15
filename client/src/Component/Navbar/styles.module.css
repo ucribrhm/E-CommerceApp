@@ -1,0 +1,33 @@
+.nav {
+  /* display flex ve j-c space between veerdiğim için sağa ve sola ayrlıldı*/
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #e2e8f0;
+  line-height: 21px;
+  align-items: center;
+}
+.nav .left {
+  display: flex;
+}
+.nav .left .menu {
+  display: flex;
+  margin-left: 40px;
+}
+.nav .left .menu li a {
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 3px 16px;
+  display: block;
+  padding: 0 ;
+}
+.nav .left .menu li a:hover{
+    color:red;
+}
+.nav .right a:first-child{
+  margin-right: 5px;
+}
+.logo{
+  font-weight: bold;
+}
